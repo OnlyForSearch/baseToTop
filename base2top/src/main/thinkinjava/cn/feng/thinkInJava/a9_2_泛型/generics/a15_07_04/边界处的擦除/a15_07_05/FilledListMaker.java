@@ -1,0 +1,22 @@
+package cn.feng.thinkInJava.a9_2_泛型.generics.a15_07_04.边界处的擦除.a15_07_05;
+//: generics/FilledListMaker.java
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class FilledListMaker<T> {
+
+    public static void main(String[] args) {
+        FilledListMaker<String> stringMaker = new FilledListMaker<String>();
+        List<String> list = stringMaker.create("Hello", 4);
+        System.out.println(list);
+    }
+    List<T> create(T t, int n) {
+        List<T> result = new ArrayList<T>();
+        for (int i = 0; i < n; i++)
+            result.add(t);
+        return result;
+    }
+} /* Output:
+[Hello, Hello, Hello, Hello]
+*///:~
