@@ -1,7 +1,7 @@
 package cn.feng.thinkInJava.a10_1_IO.io.a18_10_01.转换数据;
 //: io/TransferTo.java
 // Using transferTo() between channels
-// {Args: TransferTo.java TransferTo.txt}
+// {Args: io/TransferTo.java io/TransferTo.txt}
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

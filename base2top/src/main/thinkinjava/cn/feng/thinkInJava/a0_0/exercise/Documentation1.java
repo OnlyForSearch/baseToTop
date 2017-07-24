@@ -6,7 +6,7 @@ package cn.feng.thinkInJava.a0_0.exercise;// object.Documentation1.java
  * 使用javadoc命令生成文本
 */
 
-/**
+/**z
  * A class comment
  */
 public class Documentation1 {

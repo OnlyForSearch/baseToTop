@@ -12,7 +12,7 @@ public class Endians {
 
     public static void main(String[] args) {
         ByteBuffer bb = ByteBuffer.wrap(new byte[12]);
-        bb.asCharBuffer().put("abcdef");
+        bb.asCharBuffer().put("abcdefg");
         print(Arrays.toString(bb.array()));
         bb.rewind();
         bb.order(ByteOrder.BIG_ENDIAN);

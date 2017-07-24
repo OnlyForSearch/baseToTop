@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.io.OutputStream</OriginalElement>
+  <nodes>
+    <node x="14.25" y="348.0">java.io.PrintStream</node>
+    <node x="533.5" y="174.0">java.io.OutputStream</node>
+    <node x="401.25" y="348.0">java.io.DataOutputStream</node>
+    <node x="415.71153846153845" y="261.0">java.io.ByteArrayOutputStream</node>
+    <node x="18.5" y="87.0">java.io.Closeable</node>
+    <node x="658.7115384615385" y="261.0">java.io.FileOutputStream</node>
+    <node x="207.71153846153845" y="261.0">java.io.FilterOutputStream</node>
+    <node x="854.7115384615385" y="261.0">java.io.PipedOutputStream</node>
+    <node x="0.0" y="0.0">java.lang.AutoCloseable</node>
+    <node x="165.25" y="348.0">java.io.BufferedOutputStream</node>
+    <node x="589.5" y="87.0">java.io.Flushable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.io.FileOutputStream" target="java.io.OutputStream">
+      <point x="0.0" y="-18.5" />
+      <point x="746.7115384615385" y="241.0" />
+      <point x="627.25" y="241.0" />
+      <point x="18.75" y="18.5" />
+    </edge>
+    <edge source="java.io.DataOutputStream" target="java.io.FilterOutputStream">
+      <point x="0.0" y="-18.5" />
+      <point x="494.25" y="323.0" />
+      <point x="364.3782051282051" y="323.0" />
+      <point x="62.66666666666663" y="18.5" />
+    </edge>
+    <edge source="java.io.BufferedOutputStream" target="java.io.FilterOutputStream">
+      <point x="0.0" y="-18.5" />
+      <point x="273.25" y="323.0" />
+      <point x="301.71153846153845" y="323.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.io.ByteArrayOutputStream" target="java.io.OutputStream">
+      <point x="0.0" y="-18.5" />
+      <point x="527.2115384615385" y="241.0" />
+      <point x="589.75" y="241.0" />
+      <point x="-18.75" y="18.5" />
+    </edge>
+    <edge source="java.io.PrintStream" target="java.io.Closeable">
+      <point x="-32.75" y="-18.5" />
+      <point x="-28.5" y="18.5" />
+    </edge>
+    <edge source="java.io.FilterOutputStream" target="java.io.OutputStream">
+      <point x="0.0" y="-18.5" />
+      <point x="301.71153846153845" y="231.0" />
+      <point x="552.25" y="231.0" />
+      <point x="-56.25" y="18.5" />
+    </edge>
+    <edge source="java.io.OutputStream" target="java.io.Closeable">
+      <point x="-37.5" y="-18.5" />
+      <point x="571.0" y="149.0" />
+      <point x="104.0" y="149.0" />
+      <point x="28.5" y="18.5" />
+    </edge>
+    <edge source="java.io.PrintStream" target="java.io.FilterOutputStream">
+      <point x="32.75" y="-18.5" />
+      <point x="112.5" y="323.0" />
+      <point x="239.04487179487182" y="323.0" />
+      <point x="-62.66666666666663" y="18.5" />
+    </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+      <point x="0.0" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.io.OutputStream" target="java.io.Flushable">
+      <point x="37.5" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.io.PipedOutputStream" target="java.io.OutputStream">
+      <point x="0.0" y="-18.5" />
+      <point x="951.2115384615385" y="231.0" />
+      <point x="664.75" y="231.0" />
+      <point x="56.25" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="524.0" y="192.5" />
+  <SelectedNodes>
+    <node>java.io.BufferedOutputStream</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

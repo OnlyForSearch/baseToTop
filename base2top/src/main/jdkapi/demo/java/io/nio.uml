@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.nio.ByteBuffer</OriginalElement>
+  <nodes>
+    <node x="0.0" y="249.0">java.io.RandomAccessFile</node>
+    <node x="845.0" y="167.0">java.nio.CharBuffer</node>
+    <node x="330.0" y="167.0">java.nio.FloatBuffer</node>
+    <node x="496.0" y="167.0">java.nio.DoubleBuffer</node>
+    <node x="0.0" y="413.0">java.nio.channels.Channels</node>
+    <node x="246.0" y="249.0">java.io.FileOutputStream</node>
+    <node x="161.0" y="167.0">java.nio.ShortBuffer</node>
+    <node x="0.0" y="331.0">java.io.FileInputStream</node>
+    <node x="0.0" y="167.0">java.nio.ByteBuffer</node>
+    <node x="312.0" y="413.0">java.nio.channels.FileLock</node>
+    <node x="151.0" y="413.0">java.nio.channels.FileChannel.MapMode</node>
+    <node x="1158.0" y="167.0">java.nio.charset.Charset</node>
+    <node x="1009.0" y="167.0">java.nio.IntBuffer</node>
+    <node x="482.75" y="0.0">java.nio.Buffer</node>
+    <node x="679.0" y="167.0">java.nio.LongBuffer</node>
+    <node x="701.875" y="0.0">java.lang.Comparable</node>
+    <node x="227.0" y="331.0">java.nio.channels.FileChannel</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.nio.DoubleBuffer" target="java.nio.Buffer">
+      <point x="-40.75" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.nio.IntBuffer" target="java.nio.Buffer">
+      <point x="-32.25" y="-18.5" />
+      <point x="1041.25" y="77.0" />
+      <point x="583.0357142857142" y="77.0" />
+      <point x="46.28571428571422" y="18.5" />
+    </edge>
+    <edge source="java.nio.DoubleBuffer" target="java.lang.Comparable">
+      <point x="40.75" y="-18.5" />
+      <point x="618.25" y="147.0" />
+      <point x="769.25" y="147.0" />
+      <point x="-9.625" y="18.5" />
+    </edge>
+    <edge source="java.nio.IntBuffer" target="java.lang.Comparable">
+      <point x="32.25" y="-18.5" />
+      <point x="1105.75" y="67.0" />
+      <point x="827.0" y="67.0" />
+      <point x="48.125" y="18.5" />
+    </edge>
+    <edge source="java.nio.ShortBuffer" target="java.lang.Comparable">
+      <point x="37.25" y="-18.5" />
+      <point x="272.75" y="127.0" />
+      <point x="730.75" y="127.0" />
+      <point x="-48.125" y="18.5" />
+    </edge>
+    <edge source="java.nio.ByteBuffer" target="java.lang.Comparable">
+      <point x="35.25" y="-18.5" />
+      <point x="105.75" y="117.0" />
+      <point x="711.5" y="117.0" />
+      <point x="-67.375" y="18.5" />
+    </edge>
+    <edge source="java.nio.ShortBuffer" target="java.nio.Buffer">
+      <point x="-37.25" y="-18.5" />
+      <point x="198.25" y="97.0" />
+      <point x="505.8928571428571" y="97.0" />
+      <point x="-30.85714285714289" y="18.5" />
+    </edge>
+    <edge source="java.nio.FloatBuffer" target="java.nio.Buffer">
+      <point x="-36.5" y="-18.5" />
+      <point x="366.5" y="107.0" />
+      <point x="521.3214285714286" y="107.0" />
+      <point x="-15.428571428571445" y="18.5" />
+    </edge>
+    <edge source="java.nio.CharBuffer" target="java.nio.Buffer">
+      <point x="-36.0" y="-18.5" />
+      <point x="881.0" y="97.0" />
+      <point x="567.6071428571429" y="97.0" />
+      <point x="30.85714285714289" y="18.5" />
+    </edge>
+    <edge source="java.nio.charset.Charset" target="java.lang.Comparable">
+      <point x="0.0" y="-18.5" />
+      <point x="1217.5" y="57.0" />
+      <point x="846.25" y="57.0" />
+      <point x="67.375" y="18.5" />
+    </edge>
+    <edge source="java.nio.LongBuffer" target="java.lang.Comparable">
+      <point x="36.5" y="-18.5" />
+      <point x="9.625" y="18.5" />
+    </edge>
+    <edge source="java.nio.CharBuffer" target="java.lang.Comparable">
+      <point x="36.0" y="-18.5" />
+      <point x="953.0" y="87.0" />
+      <point x="807.75" y="87.0" />
+      <point x="28.875" y="18.5" />
+    </edge>
+    <edge source="java.nio.FloatBuffer" target="java.lang.Comparable">
+      <point x="36.5" y="-18.5" />
+      <point x="439.5" y="137.0" />
+      <point x="750.0" y="137.0" />
+      <point x="-28.875" y="18.5" />
+    </edge>
+    <edge source="java.nio.LongBuffer" target="java.nio.Buffer">
+      <point x="-36.5" y="-18.5" />
+      <point x="715.5" y="107.0" />
+      <point x="552.1785714285714" y="107.0" />
+      <point x="15.428571428571445" y="18.5" />
+    </edge>
+    <edge source="java.nio.ByteBuffer" target="java.nio.Buffer">
+      <point x="-35.25" y="-18.5" />
+      <point x="35.25" y="87.0" />
+      <point x="490.46428571428567" y="87.0" />
+      <point x="-46.285714285714334" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="638.5" y="225.0" />
+  <SelectedNodes>
+    <node>java.nio.channels.FileLock</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

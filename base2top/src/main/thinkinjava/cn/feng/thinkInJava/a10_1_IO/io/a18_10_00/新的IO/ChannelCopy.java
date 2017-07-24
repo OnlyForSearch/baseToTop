@@ -1,7 +1,7 @@
 package cn.feng.thinkInJava.a10_1_IO.io.a18_10_00.新的IO;
 //: io/ChannelCopy.java
 // Copying a file using channels and buffers
-// {Args: ChannelCopy.java test.txt}
+// {Args: io/ChannelCopy.java io/test.txt}
 
 import java.io.FileInputStream;
 import java.io.FileOutputStream;

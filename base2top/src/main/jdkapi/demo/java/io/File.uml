@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.io.File</OriginalElement>
+  <nodes>
+    <node x="465.0" y="0.0">java.io.FilenameFilter</node>
+    <node x="320.0" y="0.0">java.io.FileFilter</node>
+    <node x="146.00000000000003" y="0.0">java.lang.Comparable</node>
+    <node x="356.5" y="117.0">java.io.File</node>
+    <node x="0.0" y="0.0">java.io.Serializable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.io.FilenameFilter" target="java.io.FilenameFilter">
+      <point x="-49.33333333333334" y="18.5" />
+      <point x="489.6666666666667" y="57.0" />
+      <point x="445.0" y="57.0" />
+      <point x="445.0" y="18.5" />
+      <point x="-74.0" y="-0.0" />
+    </edge>
+    <edge source="java.io.FilenameFilter" target="java.io.File">
+      <point x="49.33333333333334" y="18.5" />
+      <point x="588.3333333333334" y="97.0" />
+      <point x="417.9166666666667" y="97.0" />
+      <point x="27.916666666666657" y="-18.5" />
+    </edge>
+    <edge source="java.io.File" target="java.io.Serializable">
+      <point x="-27.916666666666657" y="-18.5" />
+      <point x="362.08333333333337" y="97.0" />
+      <point x="63.0" y="97.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.io.File" target="java.io.File">
+      <point x="16.75" y="18.5" />
+      <point x="406.75" y="184.0" />
+      <point x="326.5" y="184.0" />
+      <point x="326.5" y="126.25" />
+      <point x="-33.5" y="-9.25" />
+    </edge>
+    <edge source="java.io.FileFilter" target="java.io.File">
+      <point x="35.0" y="18.5" />
+      <point x="407.5" y="77.0" />
+      <point x="395.58333333333337" y="77.0" />
+      <point x="5.583333333333343" y="-18.5" />
+    </edge>
+    <edge source="java.io.File" target="java.io.FilenameFilter">
+      <point x="16.75" y="-18.5" />
+      <point x="406.75" y="87.0" />
+      <point x="539.0" y="87.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.io.File" target="java.lang.Comparable">
+      <point x="-16.75" y="-18.5" />
+      <point x="373.25" y="87.0" />
+      <point x="213.00000000000003" y="87.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.io.FileFilter" target="java.io.FileFilter">
+      <point x="-35.0" y="18.5" />
+      <point x="337.5" y="57.0" />
+      <point x="300.0" y="57.0" />
+      <point x="300.0" y="18.5" />
+      <point x="-52.5" y="-0.0" />
+    </edge>
+    <edge source="java.io.File" target="java.io.FileFilter">
+      <point x="-5.583333333333314" y="-18.5" />
+      <point x="384.4166666666667" y="77.0" />
+      <point x="372.5" y="77.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="306.5" y="97.5" />
+  <SelectedNodes>
+    <node>java.io.FileFilter</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

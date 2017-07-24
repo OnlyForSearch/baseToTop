@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.zip.GZIPOutputStream</OriginalElement>
+  <nodes>
+    <node x="58.250000000000014" y="174.0">java.io.OutputStream</node>
+    <node x="153.0" y="87.0">java.io.Closeable</node>
+    <node x="39.250000000000014" y="261.0">java.io.FilterOutputStream</node>
+    <node x="39.750000000000014" y="435.0">java.util.zip.GZIPOutputStream</node>
+    <node x="27.750000000000014" y="348.0">java.util.zip.DeflaterOutputStream</node>
+    <node x="134.5" y="0.0">java.lang.AutoCloseable</node>
+    <node x="0.0" y="87.0">java.io.Flushable</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.zip.DeflaterOutputStream" target="java.io.FilterOutputStream">
+      <point x="0.0" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.util.zip.GZIPOutputStream" target="java.util.zip.DeflaterOutputStream">
+      <point x="0.0" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.io.FilterOutputStream" target="java.io.OutputStream">
+      <point x="0.0" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.io.OutputStream" target="java.io.Closeable">
+      <point x="42.5" y="-18.5" />
+      <point x="185.75" y="149.0" />
+      <point x="220.0" y="149.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.io.Closeable" target="java.lang.AutoCloseable">
+      <point x="0.0" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.io.OutputStream" target="java.io.Flushable">
+      <point x="-42.5" y="-18.5" />
+      <point x="100.75000000000001" y="149.0" />
+      <point x="66.5" y="149.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.9445707788516201" x="390.363526933494" y="302.9446283478785" />
+  <SelectedNodes>
+    <node>java.util.zip.GZIPOutputStream</node>
+    <node>java.io.Flushable</node>
+  </SelectedNodes>
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
