@@ -1,0 +1,317 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.Set</OriginalElement>
+  <nodes>
+    <node x="363.625" y="450.0">java.lang.Throwable</node>
+    <node x="308.0" y="962.0">java.util.Arrays</node>
+    <node x="540.5" y="281.0">java.util.SortedSet</node>
+    <node x="569.0" y="880.0">java.util.ListIterator</node>
+    <node x="238.5" y="281.0">java.util.PriorityQueue</node>
+    <node x="795.0" y="962.0">java.util.Scanner</node>
+    <node x="807.0" y="624.0">java.util.HashMap</node>
+    <node x="400.0" y="880.0">java.lang.Integer</node>
+    <node x="526.8910984848485" y="368.0">java.util.TreeSet</node>
+    <node x="322.0" y="711.0">java.lang.NullPointerException</node>
+    <node x="249.3541666666667" y="0.0">java.lang.Iterable</node>
+    <node x="136.5" y="281.0">java.util.Stack</node>
+    <node x="416.0" y="962.0">java.util.Formatter</node>
+    <node x="10.5" y="281.0">java.util.ArrayList</node>
+    <node x="883.5972222222222" y="711.0">java.util.LinkedHashMap</node>
+    <node x="724.8409090909092" y="281.0">java.util.HashSet</node>
+    <node x="670.0" y="962.0">java.util.regex.Matcher</node>
+    <node x="265.0" y="880.0">java.lang.Character</node>
+    <node x="940.125" y="450.0">java.util.Map</node>
+    <node x="159.0" y="880.0">java.lang.String</node>
+    <node x="420.0" y="793.0">java.lang.Number</node>
+    <node x="404.5" y="281.0">java.util.LinkedList</node>
+    <node x="674.6458333333335" y="368.0">java.util.LinkedHashSet</node>
+    <node x="0.0" y="962.0">java.io.PrintWriter</node>
+    <node x="52.815476190476204" y="793.0">java.lang.CharSequence</node>
+    <node x="581.5" y="793.0">java.util.Iterator</node>
+    <node x="915.0" y="793.0">java.io.StringWriter</node>
+    <node x="240.3541666666667" y="87.0">java.util.Collection</node>
+    <node x="643.815340909091" y="194.0">java.util.Set</node>
+    <node x="586.0" y="624.0">java.io.IOException</node>
+    <node x="0.0" y="711.0">java.lang.ArrayIndexOutOfBoundsException</node>
+    <node x="197.25" y="624.0">java.lang.RuntimeException</node>
+    <node x="169.0" y="962.0">java.util.logging.Logger</node>
+    <node x="366.625" y="537.0">java.lang.Exception</node>
+    <node x="543.0" y="711.0">java.io.FileNotFoundException</node>
+    <node x="166.25" y="194.0">java.util.List</node>
+    <node x="860.875" y="537.0">java.util.AbstractMap</node>
+    <node x="941.0" y="624.0">java.util.TreeMap</node>
+    <node x="252.96428571428572" y="793.0">java.lang.Comparable</node>
+    <node x="0.0" y="880.0">java.lang.StringBuilder</node>
+    <node x="553.0" y="962.0">java.util.regex.Pattern</node>
+    <node x="372.8361742424243" y="194.0">java.util.Queue</node>
+    <node x="737.0" y="793.0">java.util.Comparator</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.ArrayList" target="java.util.Collection">
+      <point x="-26.5" y="-18.5" />
+      <point x="37.0" y="154.0" />
+      <point x="259.85416666666674" y="154.0" />
+      <point x="-39.0" y="18.5" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.util.Set">
+      <point x="-25.75" y="-18.5" />
+      <point x="750.5909090909092" y="251.0" />
+      <point x="700.690340909091" y="251.0" />
+      <point x="24.375" y="18.5" />
+    </edge>
+    <edge source="java.util.HashMap" target="java.util.Map">
+      <point x="-28.5" y="-18.5" />
+      <point x="835.5" y="599.0" />
+      <point x="841.375" y="599.0" />
+      <point x="841.375" y="507.0" />
+      <point x="949.625" y="507.0" />
+      <point x="-28.5" y="18.5" />
+    </edge>
+    <edge source="java.io.FileNotFoundException" target="java.io.IOException">
+      <point x="0.0" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.lang.Character" target="java.lang.Comparable">
+      <point x="0.0" y="-18.5" />
+      <point x="322.5" y="855.0" />
+      <point x="319.9642857142857" y="855.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.util.TreeSet" target="java.util.Set">
+      <point x="32.66666666666663" y="-18.5" />
+      <point x="608.5577651515151" y="343.0" />
+      <point x="666.7111742424242" y="343.0" />
+      <point x="666.7111742424242" y="261.0" />
+      <point x="668.190340909091" y="261.0" />
+      <point x="-8.125" y="18.5" />
+    </edge>
+    <edge source="java.util.TreeMap" target="java.util.Map">
+      <point x="27.249999999999996" y="-18.5" />
+      <point x="1022.75" y="599.0" />
+      <point x="1018.125" y="599.0" />
+      <point x="1018.125" y="517.0" />
+      <point x="987.625" y="517.0" />
+      <point x="9.5" y="18.5" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.util.Set">
+      <point x="-38.25" y="-18.5" />
+      <point x="712.8958333333335" y="343.0" />
+      <point x="714.3409090909092" y="343.0" />
+      <point x="714.3409090909092" y="261.0" />
+      <point x="684.440340909091" y="261.0" />
+      <point x="8.125" y="18.5" />
+    </edge>
+    <edge source="java.lang.NullPointerException" target="java.lang.RuntimeException">
+      <point x="0.0" y="-18.5" />
+      <point x="422.5" y="686.0" />
+      <point x="331.5" y="686.0" />
+      <point x="44.75" y="18.5" />
+    </edge>
+    <edge source="java.util.Queue" target="java.util.Collection">
+      <point x="0.0" y="-18.5" />
+      <point x="418.8361742424243" y="174.0" />
+      <point x="311.85416666666674" y="174.0" />
+      <point x="13.0" y="18.5" />
+    </edge>
+    <edge source="java.util.SortedSet" target="java.util.Set">
+      <point x="0.0" y="-18.5" />
+      <point x="598.0" y="261.0" />
+      <point x="651.940340909091" y="261.0" />
+      <point x="-24.375" y="18.5" />
+    </edge>
+    <edge source="java.util.TreeSet" target="java.util.SortedSet">
+      <point x="0.0" y="-18.5" />
+      <point x="575.8910984848485" y="343.0" />
+      <point x="598.0" y="343.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.util.LinkedHashMap" target="java.util.Map">
+      <point x="41.0" y="-18.5" />
+      <point x="1006.5972222222222" y="686.0" />
+      <point x="1060.5" y="686.0" />
+      <point x="1060.5" y="507.0" />
+      <point x="1006.625" y="507.0" />
+      <point x="28.499999999999996" y="18.5" />
+    </edge>
+    <edge source="java.util.ListIterator" target="java.util.Iterator">
+      <point x="0.0" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.lang.RuntimeException" target="java.lang.Exception">
+      <point x="0.0" y="-18.5" />
+      <point x="286.75" y="599.0" />
+      <point x="395.375" y="599.0" />
+      <point x="-28.75" y="18.5" />
+    </edge>
+    <edge source="java.util.Set" target="java.util.Collection">
+      <point x="0.0" y="-18.5" />
+      <point x="676.315340909091" y="154.0" />
+      <point x="337.85416666666674" y="154.0" />
+      <point x="39.0" y="18.5" />
+    </edge>
+    <edge source="java.lang.Exception" target="java.lang.Throwable">
+      <point x="0.0" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.util.LinkedList" target="java.util.Queue">
+      <point x="0.0" y="-18.5" />
+      <point x="462.5" y="261.0" />
+      <point x="441.8361742424243" y="261.0" />
+      <point x="23.0" y="18.5" />
+    </edge>
+    <edge source="java.util.List" target="java.util.Collection">
+      <point x="0.0" y="-18.5" />
+      <point x="199.25" y="174.0" />
+      <point x="285.85416666666674" y="174.0" />
+      <point x="-13.0" y="18.5" />
+    </edge>
+    <edge source="java.util.Collection" target="java.lang.Iterable">
+      <point x="0.0" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.util.TreeSet" target="java.util.Collection">
+      <point x="-32.66666666666663" y="-18.5" />
+      <point x="543.2244318181819" y="343.0" />
+      <point x="0.0" y="343.0" />
+      <point x="0.0" y="144.0" />
+      <point x="246.8541666666667" y="144.0" />
+      <point x="-52.0" y="18.5" />
+    </edge>
+    <edge source="java.lang.Integer" target="java.lang.Comparable">
+      <point x="-24.0" y="-18.5" />
+      <point x="424.0" y="855.0" />
+      <point x="364.63095238095235" y="855.0" />
+      <point x="44.66666666666663" y="18.5" />
+    </edge>
+    <edge source="java.util.Scanner" target="java.util.Iterator">
+      <point x="0.0" y="0.0" />
+      <point x="0.0" y="0.0" />
+    </edge>
+    <edge source="java.util.HashMap" target="java.util.AbstractMap">
+      <point x="28.5" y="-18.5" />
+      <point x="892.5" y="599.0" />
+      <point x="895.625" y="599.0" />
+      <point x="-34.75" y="18.5" />
+    </edge>
+    <edge source="java.util.Stack" target="java.util.List">
+      <point x="20.5" y="-18.5" />
+      <point x="198.0" y="261.0" />
+      <point x="199.25" y="261.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.util.LinkedList" target="java.util.List">
+      <point x="-38.66666666666663" y="-18.5" />
+      <point x="423.83333333333337" y="251.0" />
+      <point x="221.25" y="251.0" />
+      <point x="22.0" y="18.5" />
+    </edge>
+    <edge source="java.util.Stack" target="java.util.Collection">
+      <point x="-20.5" y="-18.5" />
+      <point x="157.0" y="251.0" />
+      <point x="155.75" y="251.0" />
+      <point x="155.75" y="164.0" />
+      <point x="272.85416666666674" y="164.0" />
+      <point x="-26.0" y="18.5" />
+    </edge>
+    <edge source="java.io.IOException" target="java.lang.Exception">
+      <point x="0.0" y="-18.5" />
+      <point x="652.5" y="599.0" />
+      <point x="452.875" y="599.0" />
+      <point x="28.75" y="18.5" />
+    </edge>
+    <edge source="java.lang.ArrayIndexOutOfBoundsException" target="java.lang.RuntimeException">
+      <point x="0.0" y="-18.5" />
+      <point x="151.0" y="686.0" />
+      <point x="242.0" y="686.0" />
+      <point x="-44.75" y="18.5" />
+    </edge>
+    <edge source="java.util.PriorityQueue" target="java.util.Collection">
+      <point x="-36.5" y="-18.5" />
+      <point x="275.0" y="261.0" />
+      <point x="294.75" y="261.0" />
+      <point x="294.75" y="174.0" />
+      <point x="298.85416666666674" y="174.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.util.TreeMap" target="java.util.AbstractMap">
+      <point x="-27.25" y="-18.5" />
+      <point x="968.25" y="599.0" />
+      <point x="965.125" y="599.0" />
+      <point x="34.75" y="18.5" />
+    </edge>
+    <edge source="java.util.PriorityQueue" target="java.util.Queue">
+      <point x="36.5" y="-18.5" />
+      <point x="348.0" y="261.0" />
+      <point x="395.8361742424243" y="261.0" />
+      <point x="-23.0" y="18.5" />
+    </edge>
+    <edge source="java.lang.String" target="java.lang.Comparable">
+      <point x="21.5" y="-18.5" />
+      <point x="223.5" y="855.0" />
+      <point x="275.29761904761904" y="855.0" />
+      <point x="-44.66666666666666" y="18.5" />
+    </edge>
+    <edge source="java.util.HashSet" target="java.util.Collection">
+      <point x="25.75" y="-18.5" />
+      <point x="802.0909090909092" y="144.0" />
+      <point x="350.85416666666674" y="144.0" />
+      <point x="52.0" y="18.5" />
+    </edge>
+    <edge source="java.util.AbstractMap" target="java.util.Map">
+      <point x="0.0" y="-18.5" />
+      <point x="930.375" y="517.0" />
+      <point x="968.625" y="517.0" />
+      <point x="-9.5" y="18.5" />
+    </edge>
+    <edge source="java.util.LinkedHashMap" target="java.util.HashMap">
+      <point x="-41.0" y="-18.5" />
+      <point x="924.5972222222222" y="686.0" />
+      <point x="864.0" y="686.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.util.LinkedHashSet" target="java.util.HashSet">
+      <point x="38.25" y="-18.5" />
+      <point x="789.3958333333335" y="343.0" />
+      <point x="776.3409090909092" y="343.0" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.lang.Integer" target="java.lang.Number">
+      <point x="24.0" y="-18.5" />
+      <point x="0.0" y="18.5" />
+    </edge>
+    <edge source="java.util.LinkedList" target="java.util.Collection">
+      <point x="38.666666666666686" y="-18.5" />
+      <point x="501.1666666666667" y="261.0" />
+      <point x="519.2159090909092" y="261.0" />
+      <point x="519.2159090909092" y="164.0" />
+      <point x="324.85416666666674" y="164.0" />
+      <point x="26.0" y="18.5" />
+    </edge>
+    <edge source="java.util.ArrayList" target="java.util.List">
+      <point x="26.5" y="-18.5" />
+      <point x="90.0" y="261.0" />
+      <point x="177.25" y="261.0" />
+      <point x="-22.0" y="18.5" />
+    </edge>
+    <edge source="java.lang.StringBuilder" target="java.lang.CharSequence">
+      <point x="0.0" y="-18.5" />
+      <point x="69.5" y="855.0" />
+      <point x="90.5654761904762" y="855.0" />
+      <point x="-37.75" y="18.5" />
+    </edge>
+    <edge source="java.lang.String" target="java.lang.CharSequence">
+      <point x="-21.5" y="-18.5" />
+      <point x="180.5" y="855.0" />
+      <point x="166.0654761904762" y="855.0" />
+      <point x="37.75" y="18.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.8739941118743867" x="734.9667639793397" y="779.4051201437233" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

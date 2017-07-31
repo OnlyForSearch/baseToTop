@@ -10,7 +10,7 @@ public class UniqueWords {
     public static void main(String[] args) {
         Set<String> words = new TreeSet<String>(
                 //在构造器打开文件,并根据正则表达式"\\W+"(1个或多个字母)断开为单词
-                new TextFile("SetOperations.java", "\\W+"));
+                new TextFile("io/SetOperations.java", "\\W+"));
         System.out.println(words);
     }
 } /* Output:
